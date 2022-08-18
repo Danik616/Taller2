@@ -1387,8 +1387,36 @@ progress {
   }
 
   .col-lg-5 {
+    background-color: #fff;
+    border-radius: 6px;
+    color: #020e26;
+    padding: 15px;
+    overflow: hidden;
+    transition: 0.4s;
+    transform: translate(0);
+    font-weight: 400;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     flex: 0 0 auto;
     width: 41.66666667%;
+  }
+  .col-lg-5:hover {
+    color: #c3300c;
+  }
+  .col-lg-5::before{
+    content: "";
+    position: absolute;
+    top: -75px;
+    left: -45px;
+    z-index: -1;
+    background: rgb(22, 24, 23);
+    background: linear-gradient(129deg,rgba(22, 24, 23, 0.69791666666666667) 2%, rgba(23, 6, 129, 0.9500175070028011) 61%);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.4s;
+  }
+  .col-lg-5:hover::before{
+    transform: : scale(4.5);
   }
 
   .col-lg-6 {
