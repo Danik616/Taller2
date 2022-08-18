@@ -1409,7 +1409,7 @@ progress {
     left: -45px;
     z-index: -1;
     background: rgb(22, 24, 23);
-    background: linear-gradient(129deg,rgba(22, 24, 23, 0.69791666666666667) 2%, rgba(23, 6, 129, 0.9500175070028011) 61%);
+    background: linear-gradient(129deg,rgba(22, 24, 23, 0.69791666666666667) 2%, rgba(4, -617, 171, 0.9500175070028011) 61%);
     border-radius: 50%;
     width: 200px;
     height: 200px;
